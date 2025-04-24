@@ -162,7 +162,6 @@ button.accept{
     padding: 40px;
     margin: 20px auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
 }
 .card3 h1{
     font-size: 32px;
@@ -176,23 +175,34 @@ button.accept{
     margin: 0;
     color: #838299;
 }
-input[type="datetime"]{
-    width: 70%;
+.inputbox{
+    width: 74%;
     color: #fff;
     border: 2px solid #838299;
-    background-color: #21212f;
     border-radius: 5px;
     margin-top: 15px;
-    padding: 15px 10px 15px 45px;
+    padding: 10px 10px 10px 35px;
+    display: inline-block;
+    position: relative;
 }
-input[type="datetime"]::placeholder{
+.inputbox input[type="text"]{
+    border: none;
+    background-color: #21212f;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+}
+.inputbox input[type="text"]::placeholder{
     color: #fff;
     font-size: 16px;
 }
+.inputbox input[type="text"]:focus{
+    outline: none;
+}
 .card3 .fa-calendar{
     position: absolute;
-    top: 44%;
-    left: 53px;
+    top: 48%;
+    left: 14px;
     transform: translateY(-50%);
     font-size: 15px;
     color: #838299;
