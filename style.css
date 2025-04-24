@@ -1,0 +1,228 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 50px auto;
+    background-color: #eeedf0;
+}
+a{
+    text-decoration: none;
+}
+.homepage{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 20px auto;
+}
+.btn1{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.card1{
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.card1 img{
+    width: 20%;
+    height: auto;
+    border-radius: 5px;
+}
+.card1 h1{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.card1 p{
+    font-size: 16px;
+    color: #555;
+    padding-bottom: 10px;
+}
+.card1 button{
+    width: 100%;
+    text-align: left;
+    background-color: rgb(243 243 245); 
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.card1 .fa{
+    font-size: 20px;
+    color: #000;
+    margin-right: 10px;
+}
+.card1 .fa-arrow-right{
+    float: right;
+}
+.backbtn{
+    margin: 0 auto;
+    background-color: #f44336; /* Red */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.card2{
+    color: #fff;
+    width: 300px;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card2 ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.card2 ul li{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    position: absolute;
+}
+.card2 ul li:last-child{
+    right: 0;
+}
+.card2 img{
+    width: 30%;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.card2 .fa{
+    margin: 0 5px;
+}
+.card2 h1{
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 0;
+}
+.card2 p{
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.card2 a{
+    display: inline-block;
+}
+.card2 button{
+    text-align: center; 
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button.decline{
+    background-color: #ef3b14; /* Red */
+}
+button.accept{
+    background-color: #00ba4b; /* Green */
+}
+.card3{
+    width: 720px;
+    background-color: #21212f;
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.card3 h1{
+    font-size: 32px;
+    margin: 10px 0;
+    padding: 0;
+    color: #fbfdff;
+}
+.card3 p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin: 0;
+    color: #838299;
+}
+input[type="datetime"]{
+    width: 70%;
+    color: #fff;
+    border: 2px solid #838299;
+    background-color: #21212f;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 15px 10px 15px 45px;
+}
+input[type="datetime"]::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+.card3 .fa-calendar{
+    position: absolute;
+    top: 44%;
+    left: 53px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #838299;
+
+}
+button.export{
+    padding: 14px;
+    color: #fff;
+    background-color: #7844ec;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+.subcard{
+    background-color: #2d282a;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+.subcard h2{
+    font-size: 24px;
+    margin:0;
+    padding: 0;
+    color: #f2b404;
+}
+.subcard p{
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin: 0;
+    color: #bdbab0;
+    line-height: 1.4;
+}
